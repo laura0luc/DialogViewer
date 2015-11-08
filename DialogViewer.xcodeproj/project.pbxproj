@@ -14,6 +14,8 @@
 		8D5C64681BC75C9E0075A507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5C64661BC75C9E0075A507 /* LaunchScreen.storyboard */; };
 		8D5C64731BC75C9E0075A507 /* DialogViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C64721BC75C9E0075A507 /* DialogViewerTests.swift */; };
 		8D5C647E1BC75C9E0075A507 /* DialogViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C647D1BC75C9E0075A507 /* DialogViewerUITests.swift */; };
+		8D5C648C1BC75DFC0075A507 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C648B1BC75DFC0075A507 /* ContentCell.swift */; settings = {ASSET_TAGS = (); }; };
+		8D5C648E1BC764010075A507 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5C648D1BC764010075A507 /* HeaderCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8D5C64791BC75C9E0075A507 /* DialogViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialogViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5C647D1BC75C9E0075A507 /* DialogViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogViewerUITests.swift; sourceTree = "<group>"; };
 		8D5C647F1BC75C9E0075A507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5C648B1BC75DFC0075A507 /* ContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		8D5C648D1BC764010075A507 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				8D5C64641BC75C9E0075A507 /* Assets.xcassets */,
 				8D5C64661BC75C9E0075A507 /* LaunchScreen.storyboard */,
 				8D5C64691BC75C9E0075A507 /* Info.plist */,
+				8D5C648B1BC75DFC0075A507 /* ContentCell.swift */,
+				8D5C648D1BC764010075A507 /* HeaderCell.swift */,
 			);
 			path = DialogViewer;
 			sourceTree = "<group>";
@@ -255,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5C648E1BC764010075A507 /* HeaderCell.swift in Sources */,
+				8D5C648C1BC75DFC0075A507 /* ContentCell.swift in Sources */,
 				8D5C64601BC75C9E0075A507 /* ViewController.swift in Sources */,
 				8D5C645E1BC75C9E0075A507 /* AppDelegate.swift in Sources */,
 			);
